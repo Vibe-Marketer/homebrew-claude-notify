@@ -1,8 +1,8 @@
 class ClaudeNotify < Formula
   desc "Native macOS notifications for Claude Code and OpenCode"
   homepage "https://github.com/Vibe-Marketer/claude-notify"
-  url "https://github.com/Vibe-Marketer/claude-notify/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "e077ea023c644860d2f4b785f5d0f170221f40c3fe4d971fd92a865c19744623"
+  url "https://github.com/Vibe-Marketer/claude-notify/archive/refs/tags/v3.1.0.tar.gz"
+  sha256 "e2f254e4b0e6e2e723cc290747d6a7c911ff830572bdf01ecb81db479d4d4993"
   license "All-Rights-Reserved"
 
   depends_on :macos
@@ -34,3 +34,4 @@ class ClaudeNotify < Formula
     assert_predicate bin/"claude-notify-setup", :executable?
   end
 end
+
